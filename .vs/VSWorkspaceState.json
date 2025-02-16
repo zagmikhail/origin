@@ -1,9 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\lesson_2",
-    "\\lesson_2\\task_3\\task_3"
+    "\\lesson_2\\task_1",
+    "\\lesson_2\\task_2",
+    "\\lesson_2\\task_3",
+    "\\lesson_3",
+    "\\lesson_3\\task_1",
+    "\\lesson_3\\task_2"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\lesson_3\\task_2\\task_2.cpp",
   "PreviewInSolutionExplorer": false
 }
