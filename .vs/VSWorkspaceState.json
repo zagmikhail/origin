@@ -1,13 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\lesson_2\\task_1",
-    "\\lesson_2\\task_2",
-    "\\lesson_2\\task_3",
     "\\lesson_3",
-    "\\lesson_3\\task_1",
-    "\\lesson_3\\task_2"
+    "\\lesson_3\\task_2",
+    "\\lesson_4",
+    "\\lesson_4\\task_1"
   ],
-  "SelectedNode": "\\lesson_3\\task_2\\task_2.cpp",
+  "SelectedNode": "\\lesson_4\\task_1\\task_1.cpp",
   "PreviewInSolutionExplorer": false
 }
