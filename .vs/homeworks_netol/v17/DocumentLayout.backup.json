@@ -5,14 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\\u041D\u0435\u0442\u043E\u043B\u043E\u0433\u0438\u044F\\homeworks_netol\\lesson_4\\task_1\\task_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lesson_4\\task_1\\task_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\\u041D\u0435\u0442\u043E\u043B\u043E\u0433\u0438\u044F\\homeworks_netol\\lesson_3\\task_2\\task_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lesson_3\\task_2\\task_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\\u041D\u0435\u0442\u043E\u043B\u043E\u0433\u0438\u044F\\homeworks_netol\\lesson_4\\task_1\\in.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lesson_4\\task_1\\in.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,41 +26,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "task_2.cpp",
-              "DocumentMoniker": "E:\\\u041D\u0435\u0442\u043E\u043B\u043E\u0433\u0438\u044F\\homeworks_netol\\lesson_3\\task_2\\task_2.cpp",
-              "RelativeDocumentMoniker": "lesson_3\\task_2\\task_2.cpp",
-              "ToolTip": "E:\\\u041D\u0435\u0442\u043E\u043B\u043E\u0433\u0438\u044F\\homeworks_netol\\lesson_3\\task_2\\task_2.cpp",
-              "RelativeToolTip": "lesson_3\\task_2\\task_2.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-16T15:50:28.289Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "task_1.cpp",
               "DocumentMoniker": "E:\\\u041D\u0435\u0442\u043E\u043B\u043E\u0433\u0438\u044F\\homeworks_netol\\lesson_4\\task_1\\task_1.cpp",
               "RelativeDocumentMoniker": "lesson_4\\task_1\\task_1.cpp",
               "ToolTip": "E:\\\u041D\u0435\u0442\u043E\u043B\u043E\u0433\u0438\u044F\\homeworks_netol\\lesson_4\\task_1\\task_1.cpp",
               "RelativeToolTip": "lesson_4\\task_1\\task_1.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-16T15:02:13.21Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "in.txt",
-              "DocumentMoniker": "E:\\\u041D\u0435\u0442\u043E\u043B\u043E\u0433\u0438\u044F\\homeworks_netol\\lesson_4\\task_1\\in.txt",
-              "RelativeDocumentMoniker": "lesson_4\\task_1\\in.txt",
-              "ToolTip": "E:\\\u041D\u0435\u0442\u043E\u043B\u043E\u0433\u0438\u044F\\homeworks_netol\\lesson_4\\task_1\\in.txt",
-              "RelativeToolTip": "lesson_4\\task_1\\in.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-02-16T15:02:45.249Z",
               "EditorCaption": ""
             }
           ]
