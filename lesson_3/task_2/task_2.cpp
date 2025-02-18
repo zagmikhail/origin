@@ -18,16 +18,6 @@ public:
 		return count_num_priv;
 	}
 
-	 bool set_count_priv(int count_num_user) {
-		if (count_num_user > 0) {
-			count_num_priv = count_num_user;
-			return 1;
-		}
-		else {
-			return 0;
-		}
-	}
-
 	int increment_func() {
 		return ++count_num_priv;
 	}
