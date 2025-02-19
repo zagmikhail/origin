@@ -35,8 +35,6 @@ public:
 	std::string get_apartment_number() {
 		return apartment_number;
 	}
-
-
 };
 
 
