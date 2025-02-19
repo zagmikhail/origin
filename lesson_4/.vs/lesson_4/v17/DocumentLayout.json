@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:task_1\\task_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\\u041D\u0435\u0442\u043E\u043B\u043E\u0433\u0438\u044F\\homeworks_netol\\lesson_4\\CppProperties.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CppProperties.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\\u041D\u0435\u0442\u043E\u043B\u043E\u0433\u0438\u044F\\homeworks_netol\\lesson_4\\task_2\\in.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:task_2\\in.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -32,7 +36,7 @@
               "RelativeDocumentMoniker": "task_1\\task_1.cpp",
               "ToolTip": "E:\\\u041D\u0435\u0442\u043E\u043B\u043E\u0433\u0438\u044F\\homeworks_netol\\lesson_4\\task_1\\task_1.cpp",
               "RelativeToolTip": "task_1\\task_1.cpp",
-              "ViewState": "AgIAADQAAAAAAAAAAADwvz0AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-16T16:02:04.471Z",
               "IsPinned": true,
@@ -49,6 +53,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CppProperties.json",
+              "DocumentMoniker": "E:\\\u041D\u0435\u0442\u043E\u043B\u043E\u0433\u0438\u044F\\homeworks_netol\\lesson_4\\CppProperties.json",
+              "RelativeDocumentMoniker": "CppProperties.json",
+              "ToolTip": "E:\\\u041D\u0435\u0442\u043E\u043B\u043E\u0433\u0438\u044F\\homeworks_netol\\lesson_4\\CppProperties.json",
+              "RelativeToolTip": "CppProperties.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-19T08:17:31.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "in.txt",
               "DocumentMoniker": "E:\\\u041D\u0435\u0442\u043E\u043B\u043E\u0433\u0438\u044F\\homeworks_netol\\lesson_4\\task_2\\in.txt",
               "RelativeDocumentMoniker": "task_2\\in.txt",
@@ -56,12 +73,11 @@
               "RelativeToolTip": "task_2\\in.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-02-17T09:39:19.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T09:39:19.515Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "out.txt",
               "DocumentMoniker": "E:\\\u041D\u0435\u0442\u043E\u043B\u043E\u0433\u0438\u044F\\homeworks_netol\\lesson_4\\task_1\\out.txt",
               "RelativeDocumentMoniker": "task_1\\out.txt",
@@ -69,8 +85,7 @@
               "RelativeToolTip": "task_1\\out.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-02-18T15:29:37.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T15:29:37.054Z"
             }
           ]
         }
