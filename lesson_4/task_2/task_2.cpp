@@ -4,11 +4,37 @@
 #include <string>
 
 class Address {
-public:
+private:
 	std::string city;
 	std::string street;
-	int house_number;
-	int apartment_number;
+	std::string house_number;
+	std::string apartment_number;
+
+public:
+	Address() {}
+
+	Address(const std::string& city, const std::string& street, const std::string& house_number, const std::string& apartment_number) {
+		this->city = city;
+		this->street = street;
+		this->house_number = house_number;
+		this->apartment_number = apartment_number;
+	}
+
+	std::string get_city() {
+		return city;
+	}
+
+	std::string get_street() {
+		return street;
+	}
+
+	std::string get_house_number() {
+		return house_number;
+	}
+
+	std::string get_apartment_number() {
+		return apartment_number;
+	}
 };
 
 int main()
@@ -30,20 +56,25 @@ int main()
 		return 0;
 	}
 	int size = stoi(size_str);
+	std::string city;
+	std::string street;
+	std::string house_number;
+	std::string apartment_number;
 
 	Address* addr_arr = new Address[size];
 	for (int i = 0; i < size; ++i) {
-		fin >> addr_arr[i].city;
-		fin >> addr_arr[i].street;
-		fin >> addr_arr[i].house_number;
-		fin >> addr_arr[i].apartment_number;
+		fin >> city;
+		fin >> street;
+		fin >> house_number;
+		fin >> apartment_number;
+		addr_arr[i] = Address(city, street, house_number, apartment_number);
 	}
 
 	fin.close();
 
 	for (int i = 0; i < size; ++i) {
 		for (int j = i + 1; j <= size - 1; ++j) {
-			if (addr_arr[i].city.compare(addr_arr[j].city) > 0) {
+			if (addr_arr[i].get_city().compare(addr_arr[j].get_city()) > 0) {
 				Address tmp = addr_arr[i];
 				addr_arr[i] = addr_arr[j];
 				addr_arr[j] = tmp;
@@ -56,13 +87,13 @@ int main()
 	fout << std::endl;
 
 	for (int i = 0; i < size; ++i) {
-		fout << addr_arr[i].city;
+		fout << addr_arr[i].get_city();
 		fout << ", ";
-		fout << addr_arr[i].street;
+		fout << addr_arr[i].get_street();
 		fout << ", ";
-		fout << addr_arr[i].house_number;
+		fout << addr_arr[i].get_house_number();
 		fout << ", ";
-		fout << addr_arr[i].apartment_number;
+		fout << addr_arr[i].get_apartment_number();
 		fout << std::endl;
 	}
 	fout.close();
