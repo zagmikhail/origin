@@ -50,6 +50,7 @@ int main()
 	std::cout << triangle.get_figure() << ": " << triangle.get_side() << std::endl;
 	std::cout << quauadrangle.get_figure() << ": " << quauadrangle.get_side() << std::endl;
 
+	return 0;
 }
 
 
