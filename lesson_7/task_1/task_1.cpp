@@ -1,10 +1,12 @@
-﻿#define MODE 1
+﻿#define MODE 5
 #include <iostream>
 #include <Windows.h>
 
+#if MODE == 1
 double func_add(const double& num_1, const double& num_2) {
 	return num_1 + num_2;
 }
+#endif 
 
 int main()
 {
@@ -12,7 +14,8 @@ int main()
 	SetConsoleOutputCP(1251);
 
 #ifndef MODE
-	std::cout << "Макрос MODE не определён! Задайте значение." << std::endl;
+#error MODE must be defined
+
 #elif MODE == 0
 	std::cout << "Работаю в режиме тренировки" << std::endl;
 #elif MODE == 1
