@@ -9,7 +9,7 @@ public:
 	}
 };
 
-int function_length(std::string str, int forbidden_length) 
+int function_length(std::string str, int forbidden_length)
 {
 	if (str.length() == forbidden_length) throw bad_length();
 	return str.length();
@@ -37,7 +37,7 @@ int main(int argc, char** argv)
 		} while (result != forbidden_length);
 	}
 
-	catch (const bad_length& exp) 
+	catch (const bad_length& exp)
 	{
 		std::cout << exp.what() << std::endl;
 	}
