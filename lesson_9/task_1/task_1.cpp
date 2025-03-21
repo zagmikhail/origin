@@ -1,4 +1,6 @@
 ﻿#include <iostream>
+#include <numeric>
+
 
 class Fraction
 {
@@ -9,19 +11,32 @@ private:
 public:
 	Fraction(int numerator, int denominator)
 	{
-		numerator_ = numerator;
-		denominator_ = denominator;
+		numerator_ = numerator / std::gcd(numerator, denominator);
+		denominator_ = denominator / std::gcd(numerator, denominator);
 	}
 
-	double decimaliz() { return (numerator_ / denominator_); }
-
-	bool operator==(Fraction other) { return decimaliz() == other.decimaliz(); }
-	bool operator!=(Fraction other) { return decimaliz() != other.decimaliz(); }
-	bool operator<(Fraction other) { return decimaliz() < other.decimaliz(); }
-	bool operator>(Fraction other) { return decimaliz() > other.decimaliz(); }
-	bool operator<=(Fraction other) { return decimaliz() <= other.decimaliz(); }
-	bool operator>=(Fraction other) { return decimaliz() >= other.decimaliz(); }
-
+	bool operator==(Fraction other)
+	{ 
+		if (denominator_ == other.denominator_) { return numerator_ == other.numerator_; }
+		else 
+		{
+			int lcm = std::lcm(denominator_, other.denominator_);
+			return (lcm / denominator_ * numerator_) == (lcm / other.denominator_ * other.numerator_);
+		}
+	}
+	bool operator!=(Fraction other) { return !(*this == other); }
+	bool operator<(Fraction other)
+	{
+		if (denominator_ == other.denominator_) { return numerator_ < other.numerator_; }
+		else
+		{
+			int lcm = std::lcm(denominator_, other.denominator_);
+			return (lcm / denominator_ * numerator_) < (lcm / other.denominator_ * other.numerator_);
+		}
+	}
+	bool operator>(Fraction other) { return other < *this; }
+	bool operator<=(Fraction other) { return !(*this > other); }
+	bool operator>=(Fraction other) { return !(*this < other); }
 };
 
 int main()

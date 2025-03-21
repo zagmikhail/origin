@@ -11,39 +11,54 @@ private:
 public:
 	Fraction(int numerator, int denominator)
 	{
-		numerator_ = numerator;
-		denominator_ = denominator;
+		numerator_ = numerator / std::gcd(numerator, denominator);
+		denominator_ = denominator / std::gcd(numerator, denominator);
 	}
 
 	Fraction operator+(Fraction other)
 	{
 		if (denominator_ == other.denominator_) { return Fraction(numerator_ + other.numerator_, denominator_); }
-		else { return Fraction(numerator_ * other.denominator_ + other.numerator_ * denominator_, denominator_ * other.denominator_); }
+		else { 
+			int new_numerator = numerator_ * other.denominator_ + other.numerator_ * denominator_;
+			int new_denominator = denominator_ * other.denominator_;
+			return Fraction(new_numerator, new_denominator);
+		}
 	}
 
 	Fraction operator-(Fraction other)
 	{ 
 		if (denominator_ == other.denominator_) { return Fraction(numerator_ - other.numerator_, denominator_); }
-		else { return Fraction(numerator_ * other.denominator_ - other.numerator_ * denominator_, denominator_ * other.denominator_); }
+		else {
+			int new_numerator = numerator_ * other.denominator_ - other.numerator_ * denominator_;
+			int new_denominator = denominator_ * other.denominator_;
+			return Fraction(new_numerator, new_denominator);
+		}
 	}
 
 	Fraction operator*(Fraction other)
 	{
-		int new_numerator = (numerator_ * other.numerator_) / std::gcd(numerator_ * other.numerator_, denominator_ * other.denominator_);
-		int new_denominator = (denominator_ * other.denominator_) / std::gcd(numerator_ * other.numerator_, denominator_ * other.denominator_);
+		int new_numerator = (numerator_ * other.numerator_);
+		int new_denominator = (denominator_ * other.denominator_);
 		return Fraction(new_numerator, new_denominator);
 	}
 
 	Fraction operator/(Fraction other)
 	{
-		int new_numerator = (numerator_ * other.denominator_) / std::gcd(numerator_ * other.denominator_, denominator_ * other.numerator_);
-		int new_denominator = (denominator_ * other.numerator_) / std::gcd(numerator_ * other.denominator_, denominator_ * other.numerator_);
+		int new_numerator = (numerator_ * other.denominator_);
+		int new_denominator = (denominator_ * other.numerator_);
 		return Fraction(new_numerator, new_denominator);
 	}
 
 	Fraction operator++() { return Fraction(numerator_ + denominator_, denominator_); }
 
-	Fraction operator--(int) { return Fraction(numerator_ - denominator_, denominator_); }
+	Fraction operator--(int) 
+	{ 
+		Fraction temp = *this;
+		Fraction(numerator_ - denominator_, denominator_);
+		return temp;
+	}
+
+	Fraction operator--() { return Fraction(numerator_ - denominator_, denominator_); }
 
 	Fraction operator-() { return Fraction(-numerator_, denominator_); }
 
@@ -90,10 +105,10 @@ int main()
 	f1 = ++f1;
 	std::cout << "Значение дроби 1 = "; f1.print_fract(); std::cout << std::endl;
 
-	Fraction mult_post_decr = (f1--) * f2;
+	Fraction mult_post_decr = f1-- * f2;
 	f1.print_fract(); std::cout << "-- * ";  f2.print_fract(); std::cout << " = "; mult_post_decr.print_fract(); std::cout << std::endl;
 
-	f1 = f1--;
+	f1 = --f1;
 	std::cout << "Значение дроби 1 = "; f1.print_fract(); std::cout << std::endl;
 
 	f1 = -f1;
