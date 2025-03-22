@@ -1,0 +1,5 @@
+# ninja log v6
+3	734	7643337126434395	CMakeFiles/my_first_cmake_program.cpp.dir/my_first_cmake_program.cpp.obj	b9b7bc856a3bf24b
+766	1222	7643350374635389	my_first_cmake_program.exe	1f3d14f2fa14f58b
+735	1121	7643337133753905	my_first_cmake_program.cpp.exe	c9a61769fec353b6
+5	766	7643350367012628	CMakeFiles/my_first_cmake_program.dir/my_first_cmake_program.cpp.obj	f8df53927d9bdf67
