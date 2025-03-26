@@ -1,0 +1,6 @@
+# ninja log v6
+4	718	7646768067381698	CMakeFiles/MyDynamicLibrary.dir/leaver.cpp.obj	76bab8cb11fe6773
+8	1084	7646768067381698	CMakeFiles/LeaverCMake.dir/LeaverClient.cpp.obj	37032afecb336aff
+719	1331	7646768079780845	MyDynamicLibrary.lib	135efeca7c447c22
+719	1331	7646768079780845	MyDynamicLibrary.dll	135efeca7c447c22
+1331	1890	7646768080736275	LeaverCMake.exe	54f7dcbcb25bfc7f
